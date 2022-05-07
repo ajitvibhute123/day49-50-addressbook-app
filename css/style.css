@@ -26,7 +26,6 @@ body {
     display: flex;
     width: 85%;
     align-items: center;
-    border: 0px solid blue;
 }
 
 .logo-content img {
@@ -52,6 +51,7 @@ body {
     background-color: #f7f7f7;
     align-items: center;
 }
+
 
 /* UC2 */
 
@@ -86,24 +86,18 @@ body {
     padding-top: 10px;
 }
 
-
-/* .cancel-button img {
-    border-radius: 50%;
-    cursor: pointer;
-    float: right;
-    margin-right: 40px;
-} */
-
 .cancel-button {
     border-radius: 50%;
     cursor: pointer;
     float: right;
     margin-right: 40px;
+    margin-top: 10px;
     background: #FFFFFF;
     opacity: 1;
     color: #008CFF;
-    height: 44px;
-    padding: 8px;
+    height: 30px;
+    width: 30px;
+    padding: 4px;
     text-align: center;
 }
 
@@ -177,6 +171,9 @@ select {
 .zip-text {
     width: 210px;
 }
+
+
+/*UC5*/
 
 .buttonParent {
     display: flex;
