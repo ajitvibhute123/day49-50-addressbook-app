@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,84 +16,106 @@
 
 <body>
     <!-- UC1 AddressBook Form UI-->
-    <header class="header-text">
+   
+    <header class="header-text" >
+        
         <div class="logo-content">
             <img src="../assets/logo.jpg" alft="logo">
             <div>
-                <span class="address-text">ADDRESS</span><br>
+                <span class="address-text"><b>ADDRESS</b></span><br>
                 <span class="book-text address-text">BOOK</span>
             </div>
         </div>
     </header>
     <!-- UC2 Add form header -->
-    <header class="heading head-form">
+    
+    <header  class="heading head-form" >
+        <div class="ajit8">
         Person Address FORM
+    </div>
         <span class="close" onclick="cancel();">&times;</span>
+    </div>
     </header>
+
     <!-- UC3 Form input field -->
     <div class="">
         <form class="form" action="#" onreset="reset()" onsubmit="save(event)">
             <div>
-                <label class="label text" for="name">Full Name</label><br>
+                <div class="ajit2">
+                <label class="label text" for="name" style="color:red"><b>Full Name</b></label><br>
+            </div>
                 <input class="input" type="text" id="name" name="name" placeholder="Enter your name..." required>
+            
                 <error-output class="name-error" for="name"></error-output>
             </div>
+            
             <br>
             <div>
-                <label class="label text" for="phone">Phone Number</label><br>
+                <div class="ajit3">
+                <label class="label text" for="phone"style="color:red"><b>Phone Number</b></label><br>
+            </div>
                 <input class="input" type="tel" id="phone" name="phone" placeholder="Enter your phone number..." required>
                 <error-output class="phone-error" for="phone"></error-output>
             </div>
             <br>
             <div>
-                <label class="label text" for="address">Address</label>
+                <div class="ajit4">
+                <label class="label text" for="address"style="color:red" ><b>Address</b></label>
+            </div>
                 <textarea class="input" placeholder="Enter your address..." id="address" name="address" rows="5" required style="height: 100px; "></textarea>
                 <error-output class="address-error" for="address"></error-output>
             </div>
             <br>
             <div class="row-content">
                 <div>
-                    <label class="label text" for="city">City</label>
+                    <div class="ajit5">
+                    <label class="label text" for="city" style="color:red"><b>City</b></label>
+                </div>
                     <select name="city" id="city" required>
-                            <option value='' selected='selected'>Select City</option>
-                            <option value="Pune">Pune</option>
-                            <option value="Hyderabad">Hyderabad</option>
-                            <option value="Mumbai">Mumbai</option>
-                            <option value="Banglore">Banglore</option>
-                            <option value="Delhi">Delhi</option>
-                            <option value="Kochi">Kochi</option>
-                            <option value="Vijayawada">Vijayawada</option>
-                            <option value="Kolkata">Kolkata</option>
+                            <option value='' selected='selected'style="color:red"><b>Select City</b></option>
+                            <option value="Pune"style="color:red"><b>Pune</b></option>
+                            <option value="Hyderabad"style="color:red"><b>Hyderabad</b></option>
+                            <option value="Mumbai"style="color:red"><b>Mumbai</b></option>
+                            <option value="Banglore"style="color:red"><b>Banglore</b></option>
+                            <option value="Delhi"style="color:red"><b>Delhi</b></option>
+                            <option value="Kochi"style="color:red"><b>Kochi</b></option>
+                            <option value="Vijayawada"style="color:red"><b>Vijayawada</b></option>
+                            <option value="Kolkata"style="color:red"><b>Kolkata</b></option>
                     </select>
                 </div>
                 &nbsp;&nbsp;
                 <div>
-                    <label class="label text" for="state">State</label>
+                    <div class="ajit6">
+                    <label class="label text" for="state"style="color:red"><b>State</b></label>
+                </div>
                     <select name="state" id="state" required>
-                            <option value='' selected='selected'>Select State</option>
-                            <option value="MH ">Maharashtra</option>
-                            <option value="AP ">Andhra Pradesh</option>
-                            <option value="TS ">Telangana</option>
-                            <option value="KN ">Karnataka</option>
-                            <option value="ND ">New Delhi</option>
-                            <option value="KR ">Kerala</option>
-                            <option value="WB ">West Bengal</option>
+                            <option value='' selected='selected'style="color:red"><b>Select State</b></option>
+                            <option value="MH "style="color:red"><b>Maharashtra</b></option>
+                            <option value="AP "style="color:red"><b>Andhra Pradesh</b></option>
+                            <option value="TS "style="color:red"><b>Telangana</b></option>
+                            <option value="KN "style="color:red"><b>Karnataka</b></option>
+                            <option value="ND "style="color:red"><b>New Delhi</b></option>
+                            <option value="KR "style="color:red"><b>Kerala</b></option>
+                            <option value="WB "style="color:red"><b>West Bengal</b></option>
                     </select>
                 </div>
                 &nbsp;&nbsp;
                 <div>
-                    <label class="label text" for="zip">Zip Code</label>
+                    <div class="ajit7">
+                    <label class="label text" for="zip"style="color:red"><b>Zip Code</b></label>
+                </div>
                     <input class="input" type="number" id="zipcode" name="zipcode" placeholder="Zip Code" required>
                 </div>
             </div>
             <br>
             <!-- UC5 Add submit and reset button -->
             <div class="btn-row">
-                <button class="submit-btn" type="submit">Add</button>
-                <button class="reset-btn" type="reset">Reset</button>
+                <button class="submit-btn" type="submit"style="color:red"><b>Add</b></button>
+                <button class="reset-btn" type="reset"style="color:red"><b>Rese</b>t</button>
             </div>
         </form>
     </div>
+
 </body>
 
 </html>
