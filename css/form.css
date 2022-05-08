@@ -7,10 +7,107 @@
 body {
     margin: 0;
     height: 100%;
-    background-color: #f7f7f7;
+    background-color: #56b449;
     font-family: sans-serif;
 }
-
+.ajit2{
+    width: 30%;
+    height: 50px;
+    width:600px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(16, 247, 8), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit3{
+    width: 30%;
+    height: 50px;
+    width:600px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(247, 8, 235), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit4{
+    width: 30%;
+    height: 50px;
+    width:600px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(231, 247, 8), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit5{
+    width: 30%;
+    height: 20px;
+    width:70px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(247, 8, 215), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit6{
+    width: 30%;
+    height: 20px;
+    width:200px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(223, 247, 8), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit7{
+    width: 30%;
+    height: 20px;
+    width:290px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(48, 247, 8), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
+.ajit8{
+    width: 30%;
+    height: 60px;
+    width:600px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(236, 46, 20), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
+}
 .header-text {
     padding: 12px 0;
     background-color: #ffffff;
@@ -19,7 +116,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid #E2E2E2;
+    border: 20px solid #e41111;
 }
 
 .logo-content {
@@ -37,7 +134,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     text-transform: capitalize;
-    color: #008CFF;
+    color: #0044ff;
     letter-spacing: 0px;
 }
 
@@ -51,7 +148,7 @@ body {
 .heading {
     text-align: center;
     text-transform: uppercase;
-    background: #008CFF;
+    background: #3eee09;
     color: #ffffff;
     font-weight: normal;
     font-size: 22px;
@@ -85,7 +182,7 @@ body {
     padding: 40px 60px;
     padding-bottom: 100px;
     margin-top: 10px;
-    background: #ffffff 0% 0% no-repeat padding-box;
+    background: #ce5c5c 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #f5f5f5;
     border-radius: 8px;
     opacity: 1;
@@ -109,7 +206,7 @@ label {
 .input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #bdbdbd;
+    border: 5px solid #0e0d0d;
     border-radius: 3px;
     resize: vertical;
     font: normal normal normal 14px "Roboto";
@@ -127,7 +224,7 @@ label {
 select {
     width: 100%;
     padding: 8px;
-    border: 1px solid#bdbdbd;
+    border: 5px solid#0e0d0d;
     border-radius: 4px;
     resize: vertical;
     font: normal normal normal 16px;
